@@ -1,0 +1,17 @@
+a:\bench\vscode\bauernetwork\bnBusHub\bin\Debug\netstandard2.0\bnBusHub.deps.json
+a:\bench\vscode\bauernetwork\bnBusHub\bin\Debug\netstandard2.0\bnBusHub.dll
+a:\bench\vscode\bauernetwork\bnBusHub\bin\Debug\netstandard2.0\bnBusHub.pdb
+a:\bench\vscode\bauernetwork\bnBusHub\bin\Debug\netstandard2.0\bnBusCommon.dll
+a:\bench\vscode\bauernetwork\bnBusHub\bin\Debug\netstandard2.0\bnBusFin.dll
+a:\bench\vscode\bauernetwork\bnBusHub\bin\Debug\netstandard2.0\bnData.dll
+a:\bench\vscode\bauernetwork\bnBusHub\bin\Debug\netstandard2.0\bnFactory.dll
+a:\bench\vscode\bauernetwork\bnBusHub\bin\Debug\netstandard2.0\bnFactory.pdb
+a:\bench\vscode\bauernetwork\bnBusHub\bin\Debug\netstandard2.0\bnData.pdb
+a:\bench\vscode\bauernetwork\bnBusHub\bin\Debug\netstandard2.0\bnBusCommon.pdb
+a:\bench\vscode\bauernetwork\bnBusHub\bin\Debug\netstandard2.0\bnBusFin.pdb
+a:\bench\vscode\bauernetwork\bnBusHub\obj\Debug\netstandard2.0\bnBusHub.csproj.CoreCompileInputs.cache
+a:\bench\vscode\bauernetwork\bnBusHub\obj\Debug\netstandard2.0\bnBusHub.AssemblyInfoInputs.cache
+a:\bench\vscode\bauernetwork\bnBusHub\obj\Debug\netstandard2.0\bnBusHub.AssemblyInfo.cs
+a:\bench\vscode\bauernetwork\bnBusHub\obj\Debug\netstandard2.0\bnBusHub.csproj.CopyComplete
+a:\bench\vscode\bauernetwork\bnBusHub\obj\Debug\netstandard2.0\bnBusHub.dll
+a:\bench\vscode\bauernetwork\bnBusHub\obj\Debug\netstandard2.0\bnBusHub.pdb

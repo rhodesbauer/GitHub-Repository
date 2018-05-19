@@ -1,0 +1,9 @@
+a:\bench\vscode\bauernetwork\bnData\bin\Debug\netstandard2.0\bnData.deps.json
+a:\bench\vscode\bauernetwork\bnData\bin\Debug\netstandard2.0\bnData.dll
+a:\bench\vscode\bauernetwork\bnData\bin\Debug\netstandard2.0\bnData.pdb
+a:\bench\vscode\bauernetwork\bnData\obj\Debug\netstandard2.0\bnData.csprojResolveAssemblyReference.cache
+a:\bench\vscode\bauernetwork\bnData\obj\Debug\netstandard2.0\bnData.csproj.CoreCompileInputs.cache
+a:\bench\vscode\bauernetwork\bnData\obj\Debug\netstandard2.0\bnData.AssemblyInfoInputs.cache
+a:\bench\vscode\bauernetwork\bnData\obj\Debug\netstandard2.0\bnData.AssemblyInfo.cs
+a:\bench\vscode\bauernetwork\bnData\obj\Debug\netstandard2.0\bnData.dll
+a:\bench\vscode\bauernetwork\bnData\obj\Debug\netstandard2.0\bnData.pdb

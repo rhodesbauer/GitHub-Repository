@@ -12568,11 +12568,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "A:\\bench\\vscode\\bauernetwork\\bnUI\\bnUI.csproj",
+      "projectUniqueName": "a:\\bench\\vscode\\bauernetwork\\bnUI\\bnUI.csproj",
       "projectName": "bnUI",
-      "projectPath": "A:\\bench\\vscode\\bauernetwork\\bnUI\\bnUI.csproj",
+      "projectPath": "a:\\bench\\vscode\\bauernetwork\\bnUI\\bnUI.csproj",
       "packagesPath": "C:\\Users\\rhode\\.nuget\\packages\\",
-      "outputPath": "A:\\bench\\vscode\\bauernetwork\\bnUI\\obj\\",
+      "outputPath": "a:\\bench\\vscode\\bauernetwork\\bnUI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
@@ -12593,8 +12593,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "A:\\bench\\vscode\\bauernetwork\\bnFactory\\bnFactory.csproj": {
-              "projectPath": "A:\\bench\\vscode\\bauernetwork\\bnFactory\\bnFactory.csproj"
+            "a:\\bench\\vscode\\bauernetwork\\bnFactory\\bnFactory.csproj": {
+              "projectPath": "a:\\bench\\vscode\\bauernetwork\\bnFactory\\bnFactory.csproj"
             }
           }
         }
