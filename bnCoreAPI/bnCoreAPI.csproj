@@ -18,6 +18,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\bnFactory\bnFactory.csproj" />
+    <ProjectReference Include="..\bnBusHub\bnBusHub.csproj" />
   </ItemGroup>
 
 </Project>

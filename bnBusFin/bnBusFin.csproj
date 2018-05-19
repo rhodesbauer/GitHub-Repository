@@ -1,5 +1,11 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
+  <ItemGroup>
+    <ProjectReference Include="..\bnFactory\bnFactory.csproj" />
+    <ProjectReference Include="..\bnBusCommon\bnBusCommon.csproj" />
+    <ProjectReference Include="..\bnData\bnData.csproj" />
+  </ItemGroup>
+
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
