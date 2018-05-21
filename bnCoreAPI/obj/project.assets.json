@@ -12645,11 +12645,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "a:\\bench\\vscode\\bauernetwork\\bnCoreAPI\\bnCoreAPI.csproj",
+      "projectUniqueName": "A:\\bench\\vscode\\bauernetwork\\bnCoreAPI\\bnCoreAPI.csproj",
       "projectName": "bnCoreAPI",
-      "projectPath": "a:\\bench\\vscode\\bauernetwork\\bnCoreAPI\\bnCoreAPI.csproj",
+      "projectPath": "A:\\bench\\vscode\\bauernetwork\\bnCoreAPI\\bnCoreAPI.csproj",
       "packagesPath": "C:\\Users\\rhode\\.nuget\\packages\\",
-      "outputPath": "a:\\bench\\vscode\\bauernetwork\\bnCoreAPI\\obj\\",
+      "outputPath": "A:\\bench\\vscode\\bauernetwork\\bnCoreAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
@@ -12670,11 +12670,11 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "a:\\bench\\vscode\\bauernetwork\\bnBusHub\\bnBusHub.csproj": {
-              "projectPath": "a:\\bench\\vscode\\bauernetwork\\bnBusHub\\bnBusHub.csproj"
+            "A:\\bench\\vscode\\bauernetwork\\bnBusHub\\bnBusHub.csproj": {
+              "projectPath": "A:\\bench\\vscode\\bauernetwork\\bnBusHub\\bnBusHub.csproj"
             },
-            "a:\\bench\\vscode\\bauernetwork\\bnFactory\\bnFactory.csproj": {
-              "projectPath": "a:\\bench\\vscode\\bauernetwork\\bnFactory\\bnFactory.csproj"
+            "A:\\bench\\vscode\\bauernetwork\\bnFactory\\bnFactory.csproj": {
+              "projectPath": "A:\\bench\\vscode\\bauernetwork\\bnFactory\\bnFactory.csproj"
             }
           }
         }

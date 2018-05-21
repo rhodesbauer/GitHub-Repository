@@ -1,9 +1,9 @@
 using System;
 using Xunit;
 
-namespace bnBusCommon.tests
+namespace bnBusFin.tests
 {
-    public class UnitTest1
+    public class BillsToPay
     {
         [Fact]
         public void Test1()

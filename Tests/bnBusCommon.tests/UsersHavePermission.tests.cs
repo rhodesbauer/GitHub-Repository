@@ -1,9 +1,9 @@
 using System;
 using Xunit;
 
-namespace bnBusFin.tests
+namespace bnBusCommon.tests
 {
-    public class UnitTest1
+    public class UsersHavePermission
     {
         [Fact]
         public void Test1()

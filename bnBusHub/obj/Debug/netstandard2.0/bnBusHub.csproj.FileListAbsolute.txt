@@ -15,3 +15,4 @@ a:\bench\vscode\bauernetwork\bnBusHub\obj\Debug\netstandard2.0\bnBusHub.Assembly
 a:\bench\vscode\bauernetwork\bnBusHub\obj\Debug\netstandard2.0\bnBusHub.csproj.CopyComplete
 a:\bench\vscode\bauernetwork\bnBusHub\obj\Debug\netstandard2.0\bnBusHub.dll
 a:\bench\vscode\bauernetwork\bnBusHub\obj\Debug\netstandard2.0\bnBusHub.pdb
+A:\bench\vscode\bauernetwork\bnBusHub\obj\Debug\netstandard2.0\bnBusHub.csprojResolveAssemblyReference.cache

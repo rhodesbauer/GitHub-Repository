@@ -3003,11 +3003,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "a:\\bench\\vscode\\bauernetwork\\bnBusFin\\bnBusFin.csproj",
+      "projectUniqueName": "A:\\bench\\vscode\\bauernetwork\\bnBusFin\\bnBusFin.csproj",
       "projectName": "bnBusFin",
-      "projectPath": "a:\\bench\\vscode\\bauernetwork\\bnBusFin\\bnBusFin.csproj",
+      "projectPath": "A:\\bench\\vscode\\bauernetwork\\bnBusFin\\bnBusFin.csproj",
       "packagesPath": "C:\\Users\\rhode\\.nuget\\packages\\",
-      "outputPath": "a:\\bench\\vscode\\bauernetwork\\bnBusFin\\obj\\",
+      "outputPath": "A:\\bench\\vscode\\bauernetwork\\bnBusFin\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
@@ -3028,14 +3028,14 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "a:\\bench\\vscode\\bauernetwork\\bnBusCommon\\bnBusCommon.csproj": {
-              "projectPath": "a:\\bench\\vscode\\bauernetwork\\bnBusCommon\\bnBusCommon.csproj"
+            "A:\\bench\\vscode\\bauernetwork\\bnBusCommon\\bnBusCommon.csproj": {
+              "projectPath": "A:\\bench\\vscode\\bauernetwork\\bnBusCommon\\bnBusCommon.csproj"
             },
-            "a:\\bench\\vscode\\bauernetwork\\bnData\\bnData.csproj": {
-              "projectPath": "a:\\bench\\vscode\\bauernetwork\\bnData\\bnData.csproj"
+            "A:\\bench\\vscode\\bauernetwork\\bnData\\bnData.csproj": {
+              "projectPath": "A:\\bench\\vscode\\bauernetwork\\bnData\\bnData.csproj"
             },
-            "a:\\bench\\vscode\\bauernetwork\\bnFactory\\bnFactory.csproj": {
-              "projectPath": "a:\\bench\\vscode\\bauernetwork\\bnFactory\\bnFactory.csproj"
+            "A:\\bench\\vscode\\bauernetwork\\bnFactory\\bnFactory.csproj": {
+              "projectPath": "A:\\bench\\vscode\\bauernetwork\\bnFactory\\bnFactory.csproj"
             }
           }
         }
