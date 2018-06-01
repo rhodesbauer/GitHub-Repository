@@ -1,0 +1,11 @@
+A:\bench\vscode\bauernetwork\bnUI\bin\Debug\netcoreapp2.0\bnUI.deps.json
+A:\bench\vscode\bauernetwork\bnUI\bin\Debug\netcoreapp2.0\bnUI.runtimeconfig.json
+A:\bench\vscode\bauernetwork\bnUI\bin\Debug\netcoreapp2.0\bnUI.runtimeconfig.dev.json
+A:\bench\vscode\bauernetwork\bnUI\bin\Debug\netcoreapp2.0\bnUI.dll
+A:\bench\vscode\bauernetwork\bnUI\bin\Debug\netcoreapp2.0\bnUI.pdb
+A:\bench\vscode\bauernetwork\bnUI\obj\Debug\netcoreapp2.0\bnUI.csprojAssemblyReference.cache
+A:\bench\vscode\bauernetwork\bnUI\obj\Debug\netcoreapp2.0\bnUI.csproj.CoreCompileInputs.cache
+A:\bench\vscode\bauernetwork\bnUI\obj\Debug\netcoreapp2.0\bnUI.AssemblyInfoInputs.cache
+A:\bench\vscode\bauernetwork\bnUI\obj\Debug\netcoreapp2.0\bnUI.AssemblyInfo.cs
+A:\bench\vscode\bauernetwork\bnUI\obj\Debug\netcoreapp2.0\bnUI.dll
+A:\bench\vscode\bauernetwork\bnUI\obj\Debug\netcoreapp2.0\bnUI.pdb
