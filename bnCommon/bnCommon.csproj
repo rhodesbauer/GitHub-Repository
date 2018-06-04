@@ -5,8 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\bnData\bnData.csproj" />
     <ProjectReference Include="..\bnFactory\bnFactory.csproj" />
-    <ProjectReference Include="..\bnFin\bnFin.csproj" />
   </ItemGroup>
 
 </Project>

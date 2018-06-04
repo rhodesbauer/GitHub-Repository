@@ -4772,12 +4772,27 @@
           "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
         }
       },
+      "bnBusHub/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "bnCommon": "1.0.0",
+          "bnFactory": "1.0.0",
+          "bnFin": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/bnBusHub.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/bnBusHub.dll": {}
+        }
+      },
       "bnCommon/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "bnFactory": "1.0.0",
-          "bnFin": "1.0.0"
+          "bnData": "1.0.0",
+          "bnFactory": "1.0.0"
         },
         "compile": {
           "bin/placeholder/bnCommon.dll": {}
@@ -12828,6 +12843,11 @@
         "windowsazure.storage.nuspec"
       ]
     },
+    "bnBusHub/1.0.0": {
+      "type": "project",
+      "path": "../bnBusHub/bnBusHub.csproj",
+      "msbuildProject": "../bnBusHub/bnBusHub.csproj"
+    },
     "bnCommon/1.0.0": {
       "type": "project",
       "path": "../bnCommon/bnCommon.csproj",
@@ -12853,7 +12873,7 @@
     ".NETCoreApp,Version=v2.0": [
       "Microsoft.AspNetCore.All >= 2.0.8",
       "Microsoft.NETCore.App >= 2.0.0",
-      "bnCommon >= 1.0.0",
+      "bnBusHub >= 1.0.0",
       "bnFactory >= 1.0.0"
     ]
   },
@@ -12887,8 +12907,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "A:\\bench\\vscode\\bauernetwork\\bnCommon\\bnCommon.csproj": {
-              "projectPath": "A:\\bench\\vscode\\bauernetwork\\bnCommon\\bnCommon.csproj"
+            "A:\\bench\\vscode\\bauernetwork\\bnBusHub\\bnBusHub.csproj": {
+              "projectPath": "A:\\bench\\vscode\\bauernetwork\\bnBusHub\\bnBusHub.csproj"
             },
             "A:\\bench\\vscode\\bauernetwork\\bnFactory\\bnFactory.csproj": {
               "projectPath": "A:\\bench\\vscode\\bauernetwork\\bnFactory\\bnFactory.csproj"

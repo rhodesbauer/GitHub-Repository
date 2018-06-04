@@ -782,20 +782,6 @@
         "runtime": {
           "bin/placeholder/bnFactory.dll": {}
         }
-      },
-      "bnFin/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "dependencies": {
-          "bnData": "1.0.0",
-          "bnFactory": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/bnFin.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/bnFin.dll": {}
-        }
       }
     }
   },
@@ -3066,18 +3052,13 @@
       "type": "project",
       "path": "../bnFactory/bnFactory.csproj",
       "msbuildProject": "../bnFactory/bnFactory.csproj"
-    },
-    "bnFin/1.0.0": {
-      "type": "project",
-      "path": "../bnFin/bnFin.csproj",
-      "msbuildProject": "../bnFin/bnFin.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "NETStandard.Library >= 2.0.1",
-      "bnFactory >= 1.0.0",
-      "bnFin >= 1.0.0"
+      "bnData >= 1.0.0",
+      "bnFactory >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -3110,11 +3091,11 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
+            "A:\\bench\\vscode\\bauernetwork\\bnData\\bnData.csproj": {
+              "projectPath": "A:\\bench\\vscode\\bauernetwork\\bnData\\bnData.csproj"
+            },
             "A:\\bench\\vscode\\bauernetwork\\bnFactory\\bnFactory.csproj": {
               "projectPath": "A:\\bench\\vscode\\bauernetwork\\bnFactory\\bnFactory.csproj"
-            },
-            "A:\\bench\\vscode\\bauernetwork\\bnFin\\bnFin.csproj": {
-              "projectPath": "A:\\bench\\vscode\\bauernetwork\\bnFin\\bnFin.csproj"
             }
           }
         }
