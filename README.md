@@ -4,6 +4,10 @@ This is my personal site and a small system that I use to control personal finna
 
 As far as I'm aware, there are no proprietary code here, every resource our library was obtained for free on internet, however theirs specific licenses still apply if anyone desires to use my code by any means.
 
+#About the comments
+Please, be patient with the comments
+My system operates in Brazilian Portuguese and it automaticaly tries to 'help' me changing some words believing I typed it wrong... When I see it, I fix, but it may have some lose portuguese words lost through the system... :(
+
 #Tools
 by July, 2, 2018 these are the tools I'm using for development;
 - Visual Studio Code;
@@ -24,6 +28,7 @@ Unless it's a library or tool with very specific naming conventions, I'll use wh
 - Tables and models are CamelCase and start with it's main purpose.
     Ent from entity for basic models;
     Rel for relation tables on 'n' to '1' or 'n' to 'n';
+    Obj from Object for logical our bussiness only models;
 
 
 #Some personal code ruling

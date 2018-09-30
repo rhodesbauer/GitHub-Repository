@@ -1,4 +1,4 @@
-namespace DataLayer.Config
+namespace Data.Config
 {
     /// <summary>
     /// Constants for DataLayer use

@@ -1,16 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Factory.Models
 {
-    public partial class RelContactsAddresses
+    public partial class RelContactsAddresses : BasicModel
     {
-        public string UserIdcreation { get; set; }
+        [ForeignKey("Con")]
         public string ConId { get; set; }
+        [ForeignKey("Add")]
         public string AddId { get; set; }
-        public string UserIdlastChange { get; set; }
-        public DateTime DtCreation { get; set; }
-        public DateTime? DtLastChange { get; set; }
 
         public EntAddresses Add { get; set; }
         public EntContacts Con { get; set; }

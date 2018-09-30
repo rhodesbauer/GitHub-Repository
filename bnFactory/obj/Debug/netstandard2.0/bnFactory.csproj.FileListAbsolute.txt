@@ -7,3 +7,12 @@ A:\bench\vscode\bauernetwork\bnFactory\obj\Debug\netstandard2.0\bnFactory.Assemb
 A:\bench\vscode\bauernetwork\bnFactory\bin\Debug\netstandard2.0\bnFactory.pdb
 A:\bench\vscode\bauernetwork\bnFactory\obj\Debug\netstandard2.0\bnFactory.dll
 A:\bench\vscode\bauernetwork\bnFactory\obj\Debug\netstandard2.0\bnFactory.pdb
+d:\bauernetwork\bnFactory\bin\Debug\netstandard2.0\bnFactory.deps.json
+d:\bauernetwork\bnFactory\bin\Debug\netstandard2.0\bnFactory.dll
+d:\bauernetwork\bnFactory\bin\Debug\netstandard2.0\bnFactory.pdb
+d:\bauernetwork\bnFactory\obj\Debug\netstandard2.0\bnFactory.csprojAssemblyReference.cache
+d:\bauernetwork\bnFactory\obj\Debug\netstandard2.0\bnFactory.csproj.CoreCompileInputs.cache
+d:\bauernetwork\bnFactory\obj\Debug\netstandard2.0\bnFactory.AssemblyInfoInputs.cache
+d:\bauernetwork\bnFactory\obj\Debug\netstandard2.0\bnFactory.AssemblyInfo.cs
+d:\bauernetwork\bnFactory\obj\Debug\netstandard2.0\bnFactory.dll
+d:\bauernetwork\bnFactory\obj\Debug\netstandard2.0\bnFactory.pdb

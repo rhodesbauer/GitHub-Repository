@@ -1,0 +1,14 @@
+a:\bench\vscode\bauernetwork\APITests\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+a:\bench\vscode\bauernetwork\APITests\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+a:\bench\vscode\bauernetwork\APITests\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+a:\bench\vscode\bauernetwork\APITests\bin\Debug\netcoreapp2.0\APITests.deps.json
+a:\bench\vscode\bauernetwork\APITests\bin\Debug\netcoreapp2.0\APITests.runtimeconfig.json
+a:\bench\vscode\bauernetwork\APITests\bin\Debug\netcoreapp2.0\APITests.runtimeconfig.dev.json
+a:\bench\vscode\bauernetwork\APITests\bin\Debug\netcoreapp2.0\APITests.dll
+a:\bench\vscode\bauernetwork\APITests\bin\Debug\netcoreapp2.0\APITests.pdb
+a:\bench\vscode\bauernetwork\APITests\obj\Debug\netcoreapp2.0\APITests.csprojAssemblyReference.cache
+a:\bench\vscode\bauernetwork\APITests\obj\Debug\netcoreapp2.0\APITests.csproj.CoreCompileInputs.cache
+a:\bench\vscode\bauernetwork\APITests\obj\Debug\netcoreapp2.0\APITests.AssemblyInfoInputs.cache
+a:\bench\vscode\bauernetwork\APITests\obj\Debug\netcoreapp2.0\APITests.AssemblyInfo.cs
+a:\bench\vscode\bauernetwork\APITests\obj\Debug\netcoreapp2.0\APITests.dll
+a:\bench\vscode\bauernetwork\APITests\obj\Debug\netcoreapp2.0\APITests.pdb

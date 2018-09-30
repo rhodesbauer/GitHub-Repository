@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Factory.Models
 {
-    public partial class EntCategories
+    public partial class EntCategories : BasicModel
     {
         public EntCategories()
         {
@@ -12,15 +14,14 @@ namespace Factory.Models
             RelCategoryBill = new HashSet<RelCategoryBill>();
         }
 
+        [Key]
         public string CatId { get; set; }
+        [ForeignKey("Typ")]
         public string TypId { get; set; }
+        [Required]
         public string CatName { get; set; }
-        public int CatCode { get; set; }
+        public int CatCode { get; }
         public string CatFriendlyCode { get; set; }
-        public DateTime DtCreation { get; set; }
-        public DateTime? DtLastChange { get; set; }
-        public string UserIdcreation { get; set; }
-        public string UserIdlastChange { get; set; }
 
         public EntTypes Typ { get; set; }
         public ICollection<EntArticles> EntArticles { get; set; }

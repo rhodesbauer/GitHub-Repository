@@ -5705,11 +5705,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "A:\\bench\\vscode\\bauernetwork\\APITests\\APITests.csproj",
+      "projectUniqueName": "a:\\bench\\vscode\\bauernetwork\\APITests\\APITests.csproj",
       "projectName": "APITests",
-      "projectPath": "A:\\bench\\vscode\\bauernetwork\\APITests\\APITests.csproj",
+      "projectPath": "a:\\bench\\vscode\\bauernetwork\\APITests\\APITests.csproj",
       "packagesPath": "C:\\Users\\rhode\\.nuget\\packages\\",
-      "outputPath": "A:\\bench\\vscode\\bauernetwork\\APITests\\obj\\",
+      "outputPath": "a:\\bench\\vscode\\bauernetwork\\APITests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5752,6 +5752,7 @@
             "version": "[15.7.2, )"
           },
           "Microsoft.NETCore.App": {
+            "suppressParent": "All",
             "target": "Package",
             "version": "[2.0.0, )",
             "autoReferenced": true

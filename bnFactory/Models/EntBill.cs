@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Factory.Models
 {
-    public partial class EntBill
+    public partial class EntBill : BasicModel
     {
         public EntBill()
         {
@@ -12,20 +14,23 @@ namespace Factory.Models
             RelCategoryBill = new HashSet<RelCategoryBill>();
         }
 
+        [Key]
         public string BilId { get; set; }
-        public int BilCode { get; set; }
+        public int BilCode { get; }
+        [Required]
         public decimal? BilValue { get; set; }
+        [Required]
         public decimal? BilMultiplicator { get; set; }
+        [ForeignKey("Con")]
         public string ConId { get; set; }
+        [Required]
         public DateTime? BilDateExpiration { get; set; }
         public DateTime? BilDateOfWarning { get; set; }
         public int? BilRecurrence { get; set; }
+        [ForeignKey("Sta")]
         public string StaId { get; set; }
+        [ForeignKey("Acc")]
         public string AccId { get; set; }
-        public DateTime DtCreation { get; set; }
-        public DateTime? DtLastChange { get; set; }
-        public string UserIdcreation { get; set; }
-        public string UserIdlastChange { get; set; }
 
         public EntAccounts Acc { get; set; }
         public EntContacts Con { get; set; }

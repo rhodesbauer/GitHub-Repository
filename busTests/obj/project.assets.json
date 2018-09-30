@@ -5705,11 +5705,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "A:\\bench\\vscode\\bauernetwork\\busTests\\busTests.csproj",
+      "projectUniqueName": "a:\\bench\\vscode\\bauernetwork\\busTests\\busTests.csproj",
       "projectName": "busTests",
-      "projectPath": "A:\\bench\\vscode\\bauernetwork\\busTests\\busTests.csproj",
+      "projectPath": "a:\\bench\\vscode\\bauernetwork\\busTests\\busTests.csproj",
       "packagesPath": "C:\\Users\\rhode\\.nuget\\packages\\",
-      "outputPath": "A:\\bench\\vscode\\bauernetwork\\busTests\\obj\\",
+      "outputPath": "a:\\bench\\vscode\\bauernetwork\\busTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5752,6 +5752,7 @@
             "version": "[15.7.2, )"
           },
           "Microsoft.NETCore.App": {
+            "suppressParent": "All",
             "target": "Package",
             "version": "[2.0.0, )",
             "autoReferenced": true

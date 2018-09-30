@@ -2,7 +2,7 @@ using System;
 using System.Security.Cryptography;
 using System.Text;
 
-namespace DataLayer.Transformation
+namespace Data.Transformation
 {
     /// <summary>
     /// This class have methods to transform strings in various ways to enable the use for the DataLayer
@@ -16,7 +16,7 @@ namespace DataLayer.Transformation
         /// <summary>
         /// Function creates an MD5 hash of the string in 'strToCrypto' and puts it into 'strResult'
         /// </summary>
-        private static string generateHash(string strToCrypto)
+        internal static string generateHash(string strToCrypto)
         {
             MD5 md5 = new MD5CryptoServiceProvider();
 

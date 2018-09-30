@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace Factory.Models
 {
-    public partial class EntContacts
+    public partial class EntContacts : BasicModel
     {
         public EntContacts()
         {
@@ -14,18 +15,16 @@ namespace Factory.Models
             RelPhoneNumbersContacts = new HashSet<RelPhoneNumbersContacts>();
             RelUserContact = new HashSet<RelUserContact>();
         }
-
+        [Key]
         public string ConId { get; set; }
-        public int ConCode { get; set; }
+        public int ConCode { get; }
+        [Required]
         public string ConFirstName { get; set; }
         public string ConMidleName { get; set; }
         public string ConLastname { get; set; }
         public string ConObservation { get; set; }
+        [Required]
         public bool IsUser { get; set; }
-        public DateTime DtCreation { get; set; }
-        public DateTime? DtLastChange { get; set; }
-        public string UserIdcreation { get; set; }
-        public string UserIdlastChange { get; set; }
 
         public ICollection<EntArticles> EntArticles { get; set; }
         public ICollection<EntBill> EntBill { get; set; }

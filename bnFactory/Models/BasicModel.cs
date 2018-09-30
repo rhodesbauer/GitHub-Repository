@@ -1,11 +1,14 @@
 using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace Factory.Models
 {
     public class BasicModel : Interfaces.IEntity
     {
+        [Required]
         public DateTime dtCreation      { get; set; }
         public DateTime? dtLastChange   { get; set; }
+        [Required]
         public string userIDCreation    { get; set; }
         public string userIDLastChange  { get; set; }
 
@@ -14,6 +17,11 @@ namespace Factory.Models
             this.dtLastChange = System.DateTime.Now;
             this.userIDLastChange = userID;
         }
+
+        /// <summary>
+        /// Available for compatibility with entity framework
+        /// </summary>
+        public BasicModel(){}
 
 
         #region IDisposable Support

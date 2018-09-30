@@ -2,11 +2,21 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Factory.Models;
+using Factory.Exceptions;
 
-namespace DataLayer
+namespace Data
 {
     public partial class Context : DbContext
     {
+        private EntUsers _user;
+        internal EntUsers loggedUser 
+        {
+            get{
+                if (_user == null) throw new LoggedUserNotLoadedException("No user is logged"); 
+                else return _user;
+            }
+            set {_user = value;}
+        }
         public Context()
         {
         }
@@ -84,21 +94,21 @@ namespace DataLayer
                     .HasMaxLength(50)
                     .IsUnicode(false);
 
-                entity.Property(e => e.DtCreation)
+                entity.Property(e => e.dtCreation)
                     .HasColumnName("dtCreation")
                     .HasColumnType("datetime");
 
-                entity.Property(e => e.DtLastChange)
+                entity.Property(e => e.dtLastChange)
                     .HasColumnName("dtLastChange")
                     .HasColumnType("datetime");
 
-                entity.Property(e => e.UserIdcreation)
+                entity.Property(e => e.userIDCreation)
                     .IsRequired()
                     .HasColumnName("userIDCreation")
                     .HasMaxLength(32)
                     .IsUnicode(false);
 
-                entity.Property(e => e.UserIdlastChange)
+                entity.Property(e => e.userIDLastChange)
                     .HasColumnName("userIDLastChange")
                     .HasMaxLength(32)
                     .IsUnicode(false);
@@ -131,11 +141,11 @@ namespace DataLayer
                     .HasMaxLength(50)
                     .IsUnicode(false);
 
-                entity.Property(e => e.DtCreation)
+                entity.Property(e => e.dtCreation)
                     .HasColumnName("dtCreation")
                     .HasColumnType("datetime");
 
-                entity.Property(e => e.DtLastChange)
+                entity.Property(e => e.dtLastChange)
                     .HasColumnName("dtLastChange")
                     .HasColumnType("datetime");
 
@@ -145,13 +155,13 @@ namespace DataLayer
                     .HasMaxLength(32)
                     .IsUnicode(false);
 
-                entity.Property(e => e.UserIdcreation)
+                entity.Property(e => e.userIDCreation)
                     .IsRequired()
                     .HasColumnName("userIDCreation")
                     .HasMaxLength(32)
                     .IsUnicode(false);
 
-                entity.Property(e => e.UserIdlastChange)
+                entity.Property(e => e.userIDLastChange)
                     .HasColumnName("userIDLastChange")
                     .HasMaxLength(32)
                     .IsUnicode(false);
@@ -198,21 +208,21 @@ namespace DataLayer
                     .HasMaxLength(32)
                     .IsUnicode(false);
 
-                entity.Property(e => e.DtCreation)
+                entity.Property(e => e.dtCreation)
                     .HasColumnName("dtCreation")
                     .HasColumnType("datetime");
 
-                entity.Property(e => e.DtLastChange)
+                entity.Property(e => e.dtLastChange)
                     .HasColumnName("dtLastChange")
                     .HasColumnType("datetime");
 
-                entity.Property(e => e.UserIdcreation)
+                entity.Property(e => e.userIDCreation)
                     .IsRequired()
                     .HasColumnName("userIDCreation")
                     .HasMaxLength(32)
                     .IsUnicode(false);
 
-                entity.Property(e => e.UserIdlastChange)
+                entity.Property(e => e.userIDLastChange)
                     .HasColumnName("userIDLastChange")
                     .HasMaxLength(32)
                     .IsUnicode(false);
@@ -251,21 +261,21 @@ namespace DataLayer
                     .HasMaxLength(32)
                     .IsUnicode(false);
 
-                entity.Property(e => e.DtCreation)
+                entity.Property(e => e.dtCreation)
                     .HasColumnName("dtCreation")
                     .HasColumnType("datetime");
 
-                entity.Property(e => e.DtLastChange)
+                entity.Property(e => e.dtLastChange)
                     .HasColumnName("dtLastChange")
                     .HasColumnType("datetime");
 
-                entity.Property(e => e.UserIdcreation)
+                entity.Property(e => e.userIDCreation)
                     .IsRequired()
                     .HasColumnName("userIDCreation")
                     .HasMaxLength(32)
                     .IsUnicode(false);
 
-                entity.Property(e => e.UserIdlastChange)
+                entity.Property(e => e.userIDLastChange)
                     .HasColumnName("userIDLastChange")
                     .HasMaxLength(32)
                     .IsUnicode(false);
@@ -319,21 +329,21 @@ namespace DataLayer
                     .HasMaxLength(32)
                     .IsUnicode(false);
 
-                entity.Property(e => e.DtCreation)
+                entity.Property(e => e.dtCreation)
                     .HasColumnName("dtCreation")
                     .HasColumnType("datetime");
 
-                entity.Property(e => e.DtLastChange)
+                entity.Property(e => e.dtLastChange)
                     .HasColumnName("dtLastChange")
                     .HasColumnType("datetime");
 
-                entity.Property(e => e.UserIdcreation)
+                entity.Property(e => e.userIDCreation)
                     .IsRequired()
                     .HasColumnName("userIDCreation")
                     .HasMaxLength(32)
                     .IsUnicode(false);
 
-                entity.Property(e => e.UserIdlastChange)
+                entity.Property(e => e.userIDLastChange)
                     .HasColumnName("userIDLastChange")
                     .HasMaxLength(32)
                     .IsUnicode(false);
@@ -401,11 +411,11 @@ namespace DataLayer
                     .HasMaxLength(32)
                     .IsUnicode(false);
 
-                entity.Property(e => e.DtCreation)
+                entity.Property(e => e.dtCreation)
                     .HasColumnName("dtCreation")
                     .HasColumnType("datetime");
 
-                entity.Property(e => e.DtLastChange)
+                entity.Property(e => e.dtLastChange)
                     .HasColumnName("dtLastChange")
                     .HasColumnType("datetime");
 
@@ -415,13 +425,13 @@ namespace DataLayer
                     .HasMaxLength(32)
                     .IsUnicode(false);
 
-                entity.Property(e => e.UserIdcreation)
+                entity.Property(e => e.userIDCreation)
                     .IsRequired()
                     .HasColumnName("userIDCreation")
                     .HasMaxLength(32)
                     .IsUnicode(false);
 
-                entity.Property(e => e.UserIdlastChange)
+                entity.Property(e => e.userIDLastChange)
                     .HasColumnName("userIDLastChange")
                     .HasMaxLength(32)
                     .IsUnicode(false);
@@ -487,21 +497,21 @@ namespace DataLayer
                     .HasColumnName("btdObservation")
                     .IsUnicode(false);
 
-                entity.Property(e => e.DtCreation)
+                entity.Property(e => e.dtCreation)
                     .HasColumnName("dtCreation")
                     .HasColumnType("datetime");
 
-                entity.Property(e => e.DtLastChange)
+                entity.Property(e => e.dtLastChange)
                     .HasColumnName("dtLastChange")
                     .HasColumnType("datetime");
 
-                entity.Property(e => e.UserIdcreation)
+                entity.Property(e => e.userIDCreation)
                     .IsRequired()
                     .HasColumnName("userIDCreation")
                     .HasMaxLength(32)
                     .IsUnicode(false);
 
-                entity.Property(e => e.UserIdlastChange)
+                entity.Property(e => e.userIDLastChange)
                     .HasColumnName("userIDLastChange")
                     .HasMaxLength(32)
                     .IsUnicode(false);
@@ -535,21 +545,21 @@ namespace DataLayer
 
                 entity.Property(e => e.BgrTotalInstallments).HasColumnName("bgrTotalInstallments");
 
-                entity.Property(e => e.DtCreation)
+                entity.Property(e => e.dtCreation)
                     .HasColumnName("dtCreation")
                     .HasColumnType("datetime");
 
-                entity.Property(e => e.DtLastChange)
+                entity.Property(e => e.dtLastChange)
                     .HasColumnName("dtLastChange")
                     .HasColumnType("datetime");
 
-                entity.Property(e => e.UserIdcreation)
+                entity.Property(e => e.userIDCreation)
                     .IsRequired()
                     .HasColumnName("userIDCreation")
                     .HasMaxLength(32)
                     .IsUnicode(false);
 
-                entity.Property(e => e.UserIdlastChange)
+                entity.Property(e => e.userIDLastChange)
                     .HasColumnName("userIDLastChange")
                     .HasMaxLength(32)
                     .IsUnicode(false);
@@ -582,11 +592,11 @@ namespace DataLayer
                     .HasMaxLength(50)
                     .IsUnicode(false);
 
-                entity.Property(e => e.DtCreation)
+                entity.Property(e => e.dtCreation)
                     .HasColumnName("dtCreation")
                     .HasColumnType("datetime");
 
-                entity.Property(e => e.DtLastChange)
+                entity.Property(e => e.dtLastChange)
                     .HasColumnName("dtLastChange")
                     .HasColumnType("datetime");
 
@@ -596,13 +606,13 @@ namespace DataLayer
                     .HasMaxLength(32)
                     .IsUnicode(false);
 
-                entity.Property(e => e.UserIdcreation)
+                entity.Property(e => e.userIDCreation)
                     .IsRequired()
                     .HasColumnName("userIDCreation")
                     .HasMaxLength(32)
                     .IsUnicode(false);
 
-                entity.Property(e => e.UserIdlastChange)
+                entity.Property(e => e.userIDLastChange)
                     .HasColumnName("userIDLastChange")
                     .HasMaxLength(32)
                     .IsUnicode(false);
@@ -642,21 +652,21 @@ namespace DataLayer
                     .HasMaxLength(50)
                     .IsUnicode(false);
 
-                entity.Property(e => e.DtCreation)
+                entity.Property(e => e.dtCreation)
                     .HasColumnName("dtCreation")
                     .HasColumnType("datetime");
 
-                entity.Property(e => e.DtLastChange)
+                entity.Property(e => e.dtLastChange)
                     .HasColumnName("dtLastChange")
                     .HasColumnType("datetime");
 
-                entity.Property(e => e.UserIdcreation)
+                entity.Property(e => e.userIDCreation)
                     .IsRequired()
                     .HasColumnName("userIDCreation")
                     .HasMaxLength(32)
                     .IsUnicode(false);
 
-                entity.Property(e => e.UserIdlastChange)
+                entity.Property(e => e.userIDLastChange)
                     .HasColumnName("userIDLastChange")
                     .HasMaxLength(32)
                     .IsUnicode(false);
@@ -684,21 +694,21 @@ namespace DataLayer
                     .HasMaxLength(32)
                     .IsUnicode(false);
 
-                entity.Property(e => e.DtCreation)
+                entity.Property(e => e.dtCreation)
                     .HasColumnName("dtCreation")
                     .HasColumnType("datetime");
 
-                entity.Property(e => e.DtLastChange)
+                entity.Property(e => e.dtLastChange)
                     .HasColumnName("dtLastChange")
                     .HasColumnType("datetime");
 
-                entity.Property(e => e.UserIdcreation)
+                entity.Property(e => e.userIDCreation)
                     .IsRequired()
                     .HasColumnName("userIDCreation")
                     .HasMaxLength(32)
                     .IsUnicode(false);
 
-                entity.Property(e => e.UserIdlastChange)
+                entity.Property(e => e.userIDLastChange)
                     .HasColumnName("userIDLastChange")
                     .HasMaxLength(32)
                     .IsUnicode(false);
@@ -744,23 +754,23 @@ namespace DataLayer
 
                 entity.Property(e => e.ConObservation).HasColumnName("conObservation");
 
-                entity.Property(e => e.DtCreation)
+                entity.Property(e => e.dtCreation)
                     .HasColumnName("dtCreation")
                     .HasColumnType("datetime");
 
-                entity.Property(e => e.DtLastChange)
+                entity.Property(e => e.dtLastChange)
                     .HasColumnName("dtLastChange")
                     .HasColumnType("datetime");
 
                 entity.Property(e => e.IsUser).HasColumnName("isUser");
 
-                entity.Property(e => e.UserIdcreation)
+                entity.Property(e => e.userIDCreation)
                     .IsRequired()
                     .HasColumnName("userIDCreation")
                     .HasMaxLength(32)
                     .IsUnicode(false);
 
-                entity.Property(e => e.UserIdlastChange)
+                entity.Property(e => e.userIDLastChange)
                     .HasColumnName("userIDLastChange")
                     .HasMaxLength(32)
                     .IsUnicode(false);
@@ -778,11 +788,11 @@ namespace DataLayer
                     .IsUnicode(false)
                     .ValueGeneratedNever();
 
-                entity.Property(e => e.DtCreation)
+                entity.Property(e => e.dtCreation)
                     .HasColumnName("dtCreation")
                     .HasColumnType("datetime");
 
-                entity.Property(e => e.DtLastChange)
+                entity.Property(e => e.dtLastChange)
                     .HasColumnName("dtLastChange")
                     .HasColumnType("datetime");
 
@@ -804,13 +814,13 @@ namespace DataLayer
 
                 entity.Property(e => e.ShouldShow).HasColumnName("shouldShow");
 
-                entity.Property(e => e.UserIdcreation)
+                entity.Property(e => e.userIDCreation)
                     .IsRequired()
                     .HasColumnName("userIDCreation")
                     .HasMaxLength(32)
                     .IsUnicode(false);
 
-                entity.Property(e => e.UserIdlastChange)
+                entity.Property(e => e.userIDLastChange)
                     .HasColumnName("userIDLastChange")
                     .HasMaxLength(32)
                     .IsUnicode(false);
@@ -828,11 +838,11 @@ namespace DataLayer
                     .IsUnicode(false)
                     .ValueGeneratedNever();
 
-                entity.Property(e => e.DtCreation)
+                entity.Property(e => e.dtCreation)
                     .HasColumnName("dtCreation")
                     .HasColumnType("datetime");
 
-                entity.Property(e => e.DtLastChange)
+                entity.Property(e => e.dtLastChange)
                     .HasColumnName("dtLastChange")
                     .HasColumnType("datetime");
 
@@ -852,13 +862,13 @@ namespace DataLayer
                     .HasMaxLength(50)
                     .IsUnicode(false);
 
-                entity.Property(e => e.UserIdcreation)
+                entity.Property(e => e.userIDCreation)
                     .IsRequired()
                     .HasColumnName("userIDCreation")
                     .HasMaxLength(32)
                     .IsUnicode(false);
 
-                entity.Property(e => e.UserIdlastChange)
+                entity.Property(e => e.userIDLastChange)
                     .HasColumnName("userIDLastChange")
                     .HasMaxLength(32)
                     .IsUnicode(false);
@@ -876,11 +886,11 @@ namespace DataLayer
                     .IsUnicode(false)
                     .ValueGeneratedNever();
 
-                entity.Property(e => e.DtCreation)
+                entity.Property(e => e.dtCreation)
                     .HasColumnName("dtCreation")
                     .HasColumnType("datetime");
 
-                entity.Property(e => e.DtLastChange)
+                entity.Property(e => e.dtLastChange)
                     .HasColumnName("dtLastChange")
                     .HasColumnType("datetime");
 
@@ -890,13 +900,13 @@ namespace DataLayer
                     .HasMaxLength(50)
                     .IsUnicode(false);
 
-                entity.Property(e => e.UserIdcreation)
+                entity.Property(e => e.userIDCreation)
                     .IsRequired()
                     .HasColumnName("userIDCreation")
                     .HasMaxLength(32)
                     .IsUnicode(false);
 
-                entity.Property(e => e.UserIdlastChange)
+                entity.Property(e => e.userIDLastChange)
                     .HasColumnName("userIDLastChange")
                     .HasMaxLength(32)
                     .IsUnicode(false);
@@ -926,11 +936,11 @@ namespace DataLayer
                     .HasMaxLength(32)
                     .IsUnicode(false);
 
-                entity.Property(e => e.DtCreation)
+                entity.Property(e => e.dtCreation)
                     .HasColumnName("dtCreation")
                     .HasColumnType("datetime");
 
-                entity.Property(e => e.DtLastChange)
+                entity.Property(e => e.dtLastChange)
                     .HasColumnName("dtLastChange")
                     .HasColumnType("datetime");
 
@@ -955,13 +965,13 @@ namespace DataLayer
                     .HasColumnName("qenValue")
                     .HasColumnType("numeric(18, 8)");
 
-                entity.Property(e => e.UserIdcreation)
+                entity.Property(e => e.userIDCreation)
                     .IsRequired()
                     .HasColumnName("userIDCreation")
                     .HasMaxLength(32)
                     .IsUnicode(false);
 
-                entity.Property(e => e.UserIdlastChange)
+                entity.Property(e => e.userIDLastChange)
                     .HasColumnName("userIDLastChange")
                     .HasMaxLength(32)
                     .IsUnicode(false);
@@ -991,11 +1001,11 @@ namespace DataLayer
                     .IsUnicode(false)
                     .ValueGeneratedNever();
 
-                entity.Property(e => e.DtCreation)
+                entity.Property(e => e.dtCreation)
                     .HasColumnName("dtCreation")
                     .HasColumnType("datetime");
 
-                entity.Property(e => e.DtLastChange)
+                entity.Property(e => e.dtLastChange)
                     .HasColumnName("dtLastChange")
                     .HasColumnType("datetime");
 
@@ -1013,13 +1023,13 @@ namespace DataLayer
                     .HasMaxLength(50)
                     .IsUnicode(false);
 
-                entity.Property(e => e.UserIdcreation)
+                entity.Property(e => e.userIDCreation)
                     .IsRequired()
                     .HasColumnName("userIDCreation")
                     .HasMaxLength(32)
                     .IsUnicode(false);
 
-                entity.Property(e => e.UserIdlastChange)
+                entity.Property(e => e.userIDLastChange)
                     .HasColumnName("userIDLastChange")
                     .HasMaxLength(32)
                     .IsUnicode(false);
@@ -1037,11 +1047,11 @@ namespace DataLayer
                     .IsUnicode(false)
                     .ValueGeneratedNever();
 
-                entity.Property(e => e.DtCreation)
+                entity.Property(e => e.dtCreation)
                     .HasColumnName("dtCreation")
                     .HasColumnType("datetime");
 
-                entity.Property(e => e.DtLastChange)
+                entity.Property(e => e.dtLastChange)
                     .HasColumnName("dtLastChange")
                     .HasColumnType("datetime");
 
@@ -1060,13 +1070,13 @@ namespace DataLayer
                     .HasMaxLength(50)
                     .IsUnicode(false);
 
-                entity.Property(e => e.UserIdcreation)
+                entity.Property(e => e.userIDCreation)
                     .IsRequired()
                     .HasColumnName("userIDCreation")
                     .HasMaxLength(32)
                     .IsUnicode(false);
 
-                entity.Property(e => e.UserIdlastChange)
+                entity.Property(e => e.userIDLastChange)
                     .HasColumnName("userIDLastChange")
                     .HasMaxLength(32)
                     .IsUnicode(false);
@@ -1084,11 +1094,11 @@ namespace DataLayer
                     .IsUnicode(false)
                     .ValueGeneratedNever();
 
-                entity.Property(e => e.DtCreation)
+                entity.Property(e => e.dtCreation)
                     .HasColumnName("dtCreation")
                     .HasColumnType("datetime");
 
-                entity.Property(e => e.DtLastChange)
+                entity.Property(e => e.dtLastChange)
                     .HasColumnName("dtLastChange")
                     .HasColumnType("datetime");
 
@@ -1098,13 +1108,13 @@ namespace DataLayer
                     .HasColumnName("userCode")
                     .ValueGeneratedOnAdd();
 
-                entity.Property(e => e.UserIdcreation)
+                entity.Property(e => e.userIDCreation)
                     .IsRequired()
                     .HasColumnName("userIDCreation")
                     .HasMaxLength(32)
                     .IsUnicode(false);
 
-                entity.Property(e => e.UserIdlastChange)
+                entity.Property(e => e.userIDLastChange)
                     .HasColumnName("userIDLastChange")
                     .HasMaxLength(32)
                     .IsUnicode(false);
@@ -1138,21 +1148,21 @@ namespace DataLayer
                     .HasMaxLength(32)
                     .IsUnicode(false);
 
-                entity.Property(e => e.DtCreation)
+                entity.Property(e => e.dtCreation)
                     .HasColumnName("dtCreation")
                     .HasColumnType("datetime");
 
-                entity.Property(e => e.DtLastChange)
+                entity.Property(e => e.dtLastChange)
                     .HasColumnName("dtLastChange")
                     .HasColumnType("datetime");
 
-                entity.Property(e => e.UserIdcreation)
+                entity.Property(e => e.userIDCreation)
                     .IsRequired()
                     .HasColumnName("userIDCreation")
                     .HasMaxLength(32)
                     .IsUnicode(false);
 
-                entity.Property(e => e.UserIdlastChange)
+                entity.Property(e => e.userIDLastChange)
                     .HasColumnName("userIDLastChange")
                     .HasMaxLength(32)
                     .IsUnicode(false);
@@ -1186,21 +1196,21 @@ namespace DataLayer
                     .HasMaxLength(32)
                     .IsUnicode(false);
 
-                entity.Property(e => e.DtCreation)
+                entity.Property(e => e.dtCreation)
                     .HasColumnName("dtCreation")
                     .HasColumnType("datetime");
 
-                entity.Property(e => e.DtLastChange)
+                entity.Property(e => e.dtLastChange)
                     .HasColumnName("dtLastChange")
                     .HasColumnType("datetime");
 
-                entity.Property(e => e.UserIdcreation)
+                entity.Property(e => e.userIDCreation)
                     .IsRequired()
                     .HasColumnName("userIDCreation")
                     .HasMaxLength(32)
                     .IsUnicode(false);
 
-                entity.Property(e => e.UserIdlastChange)
+                entity.Property(e => e.userIDLastChange)
                     .HasColumnName("userIDLastChange")
                     .HasMaxLength(32)
                     .IsUnicode(false);
@@ -1234,21 +1244,21 @@ namespace DataLayer
                     .HasMaxLength(32)
                     .IsUnicode(false);
 
-                entity.Property(e => e.DtCreation)
+                entity.Property(e => e.dtCreation)
                     .HasColumnName("dtCreation")
                     .HasColumnType("datetime");
 
-                entity.Property(e => e.DtLastChange)
+                entity.Property(e => e.dtLastChange)
                     .HasColumnName("dtLastChange")
                     .HasColumnType("datetime");
 
-                entity.Property(e => e.UserIdcreation)
+                entity.Property(e => e.userIDCreation)
                     .IsRequired()
                     .HasColumnName("userIDCreation")
                     .HasMaxLength(32)
                     .IsUnicode(false);
 
-                entity.Property(e => e.UserIdlastChange)
+                entity.Property(e => e.userIDLastChange)
                     .HasColumnName("userIDLastChange")
                     .HasMaxLength(32)
                     .IsUnicode(false);
@@ -1282,21 +1292,21 @@ namespace DataLayer
                     .HasMaxLength(32)
                     .IsUnicode(false);
 
-                entity.Property(e => e.DtCreation)
+                entity.Property(e => e.dtCreation)
                     .HasColumnName("dtCreation")
                     .HasColumnType("datetime");
 
-                entity.Property(e => e.DtLastChange)
+                entity.Property(e => e.dtLastChange)
                     .HasColumnName("dtLastChange")
                     .HasColumnType("datetime");
 
-                entity.Property(e => e.UserIdcreation)
+                entity.Property(e => e.userIDCreation)
                     .IsRequired()
                     .HasColumnName("userIDCreation")
                     .HasMaxLength(32)
                     .IsUnicode(false);
 
-                entity.Property(e => e.UserIdlastChange)
+                entity.Property(e => e.userIDLastChange)
                     .HasColumnName("userIDLastChange")
                     .HasMaxLength(32)
                     .IsUnicode(false);
@@ -1330,23 +1340,23 @@ namespace DataLayer
                     .HasMaxLength(32)
                     .IsUnicode(false);
 
-                entity.Property(e => e.DtCreation)
+                entity.Property(e => e.dtCreation)
                     .HasColumnName("dtCreation")
                     .HasColumnType("datetime");
 
-                entity.Property(e => e.DtLastChange)
+                entity.Property(e => e.dtLastChange)
                     .HasColumnName("dtLastChange")
                     .HasColumnType("datetime");
 
                 entity.Property(e => e.Permission).HasColumnName("permission");
 
-                entity.Property(e => e.UserIdcreation)
+                entity.Property(e => e.userIDCreation)
                     .IsRequired()
                     .HasColumnName("userIDCreation")
                     .HasMaxLength(32)
                     .IsUnicode(false);
 
-                entity.Property(e => e.UserIdlastChange)
+                entity.Property(e => e.userIDLastChange)
                     .HasColumnName("userIDLastChange")
                     .HasMaxLength(32)
                     .IsUnicode(false);
@@ -1380,21 +1390,21 @@ namespace DataLayer
                     .HasMaxLength(32)
                     .IsUnicode(false);
 
-                entity.Property(e => e.DtCreation)
+                entity.Property(e => e.dtCreation)
                     .HasColumnName("dtCreation")
                     .HasColumnType("datetime");
 
-                entity.Property(e => e.DtLastChange)
+                entity.Property(e => e.dtLastChange)
                     .HasColumnName("dtLastChange")
                     .HasColumnType("datetime");
 
-                entity.Property(e => e.UserIdcreation)
+                entity.Property(e => e.userIDCreation)
                     .IsRequired()
                     .HasColumnName("userIDCreation")
                     .HasMaxLength(32)
                     .IsUnicode(false);
 
-                entity.Property(e => e.UserIdlastChange)
+                entity.Property(e => e.userIDLastChange)
                     .HasColumnName("userIDLastChange")
                     .HasMaxLength(32)
                     .IsUnicode(false);
@@ -1428,21 +1438,21 @@ namespace DataLayer
                     .HasMaxLength(32)
                     .IsUnicode(false);
 
-                entity.Property(e => e.DtCreation)
+                entity.Property(e => e.dtCreation)
                     .HasColumnName("dtCreation")
                     .HasColumnType("datetime");
 
-                entity.Property(e => e.DtLastChange)
+                entity.Property(e => e.dtLastChange)
                     .HasColumnName("dtLastChange")
                     .HasColumnType("datetime");
 
-                entity.Property(e => e.UserIdcreation)
+                entity.Property(e => e.userIDCreation)
                     .IsRequired()
                     .HasColumnName("userIDCreation")
                     .HasMaxLength(32)
                     .IsUnicode(false);
 
-                entity.Property(e => e.UserIdlastChange)
+                entity.Property(e => e.userIDLastChange)
                     .HasColumnName("userIDLastChange")
                     .HasMaxLength(32)
                     .IsUnicode(false);

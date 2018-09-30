@@ -10,3 +10,9 @@ A:\bench\vscode\bauernetwork\bnData\obj\Debug\netstandard2.0\bnData.pdb
 A:\bench\vscode\bauernetwork\bnData\bin\Debug\netstandard2.0\bnFactory.dll
 A:\bench\vscode\bauernetwork\bnData\bin\Debug\netstandard2.0\bnFactory.pdb
 A:\bench\vscode\bauernetwork\bnData\obj\Debug\netstandard2.0\bnData.csproj.CopyComplete
+d:\bauernetwork\bnData\obj\Debug\netstandard2.0\bnData.csprojAssemblyReference.cache
+d:\bauernetwork\bnData\obj\Debug\netstandard2.0\bnData.csproj.CoreCompileInputs.cache
+d:\bauernetwork\bnData\obj\Debug\netstandard2.0\bnData.AssemblyInfoInputs.cache
+d:\bauernetwork\bnData\obj\Debug\netstandard2.0\bnData.AssemblyInfo.cs
+d:\bauernetwork\bnData\obj\Debug\netstandard2.0\bnData.dll
+d:\bauernetwork\bnData\obj\Debug\netstandard2.0\bnData.pdb

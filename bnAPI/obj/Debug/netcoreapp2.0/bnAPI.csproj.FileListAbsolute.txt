@@ -18,3 +18,5 @@ A:\bench\vscode\bauernetwork\bnAPI\bin\Debug\netcoreapp2.0\bnFactory.pdb
 A:\bench\vscode\bauernetwork\bnAPI\bin\Debug\netcoreapp2.0\bnFin.pdb
 A:\bench\vscode\bauernetwork\bnAPI\bin\Debug\netcoreapp2.0\bnData.pdb
 A:\bench\vscode\bauernetwork\bnAPI\obj\Debug\netcoreapp2.0\bnAPI.csproj.CopyComplete
+a:\bench\vscode\bauernetwork\bnAPI\bin\Debug\netcoreapp2.0\bnBusHub.dll
+a:\bench\vscode\bauernetwork\bnAPI\bin\Debug\netcoreapp2.0\bnBusHub.pdb

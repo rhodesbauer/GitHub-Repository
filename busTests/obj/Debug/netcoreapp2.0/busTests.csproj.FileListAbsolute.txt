@@ -1,0 +1,14 @@
+a:\bench\vscode\bauernetwork\busTests\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+a:\bench\vscode\bauernetwork\busTests\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+a:\bench\vscode\bauernetwork\busTests\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+a:\bench\vscode\bauernetwork\busTests\bin\Debug\netcoreapp2.0\busTests.deps.json
+a:\bench\vscode\bauernetwork\busTests\bin\Debug\netcoreapp2.0\busTests.runtimeconfig.json
+a:\bench\vscode\bauernetwork\busTests\bin\Debug\netcoreapp2.0\busTests.runtimeconfig.dev.json
+a:\bench\vscode\bauernetwork\busTests\bin\Debug\netcoreapp2.0\busTests.dll
+a:\bench\vscode\bauernetwork\busTests\bin\Debug\netcoreapp2.0\busTests.pdb
+a:\bench\vscode\bauernetwork\busTests\obj\Debug\netcoreapp2.0\busTests.csprojAssemblyReference.cache
+a:\bench\vscode\bauernetwork\busTests\obj\Debug\netcoreapp2.0\busTests.csproj.CoreCompileInputs.cache
+a:\bench\vscode\bauernetwork\busTests\obj\Debug\netcoreapp2.0\busTests.AssemblyInfoInputs.cache
+a:\bench\vscode\bauernetwork\busTests\obj\Debug\netcoreapp2.0\busTests.AssemblyInfo.cs
+a:\bench\vscode\bauernetwork\busTests\obj\Debug\netcoreapp2.0\busTests.dll
+a:\bench\vscode\bauernetwork\busTests\obj\Debug\netcoreapp2.0\busTests.pdb
